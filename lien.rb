@@ -3,7 +3,7 @@ class Eleve
     def moyenne
         total = 0
         examens.each do |examen|
-            total = total + examen.note
+            total += total + examen.note
         end
     end
     total / examens.size
